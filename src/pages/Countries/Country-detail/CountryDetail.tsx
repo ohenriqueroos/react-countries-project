@@ -69,7 +69,7 @@ const CountryDetail: React.FC = () => {
         </Col>
       </Row>
       <hr />
-      <Row gutter={[0, 10]} className={styles["country-infos"]}>
+      <Row gutter={[0, 10]} className={styles["country-infos country-data"]}>
         <Col md={6} sm={12} xs={12}>
           <span>Nationality:</span>
           <p>{country?.demonym}</p>
